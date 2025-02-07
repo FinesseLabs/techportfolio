@@ -222,5 +222,5 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 document.addEventListener("DOMContentLoaded", () => {
-    updatePostWall(); // Render posts from localStorage on page load
+    updatePostWall(); // Reload posts from localStorage
 });
