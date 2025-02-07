@@ -60,7 +60,7 @@ window.addEventListener('scroll', () => {
     }
 });
 // Blog Post Array
-const blogPosts = [];
+const blogPosts = JSON.parse(localStorage.getItem("blogPosts")) || [];
 
 // Form Submission Handler
 document.getElementById('blog-form').addEventListener('submit', (e) => {
@@ -101,6 +101,9 @@ function updatePostWall() {
         li.addEventListener('click', () => expandPost(index)); // Add click handler
         postWallList.appendChild(li);
     });
+
+    // Save updated posts to localStorage
+    localStorage.setItem("blogPosts", JSON.stringify(blogPosts));
 }
 
 // Expand Post in Main Area
@@ -217,4 +220,7 @@ document.addEventListener("DOMContentLoaded", function () {
             darkModeToggle.textContent = "🌙 Dark Mode";
         }
     });
+});
+document.addEventListener("DOMContentLoaded", () => {
+    updatePostWall(); // Render posts from localStorage on page load
 });
