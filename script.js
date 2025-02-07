@@ -125,10 +125,12 @@ const terminalInput = document.getElementById('terminal-input');
 
 // Define command responses
 const commands = {
-    about: "Hi! I'm a passionate web developer and cybersecurity enthusiast. I specialize in building sleek, secure, and innovative digital solutions.",
-    projects: "Here are some of my web developement projects:\n1. Snake Game - Fun game accessible on both mobile and desktop.\n2. Cybersecurity blog - A penetration testing tool.\n3. Dev Portfolio - A sleek portfolio website.",
-    contact: "You can contact me at: techfinesse59@gmail.com or connect via LinkedIn.",
-    help: "Available commands:\n1. about\n2. projects\n3. contact\n4. clear - Clear the terminal.",
+    about: "Hi there! I'm Brandi, a passionate tech enthusiast exploring cybersecurity and web development. Let's create something amazing together!",
+    projects: "Check out my projects:\n1. Games – Fun games accessible on both mobile and desktop.\n2. Cybersecurity – A password strength testing tool.\n3. Weather App – A simple app that gives a 5-day forecast using APIs.",
+    contact: "Feel free to reach out at techfinesse59@gmail.com or connect with me on LinkedIn!",
+    help: "Available commands:\n1. about – Learn more about me.\n2. projects – See what I've built.\n3. contact – Get in touch.\n4. clear – Clear the terminal.",
+    funfact: "Did you know? I built my first interactive game in just 5 days!",
+    secret: "You've unlocked a secret! Keep an eye out for more surprises on my site!"
 };
 
 // Handle user input
