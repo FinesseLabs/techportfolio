@@ -11,7 +11,7 @@ Classic arcade vibes with mobile support.
 - Keyboard & swipe controls  
 - Score counter  
 - Adjustable speed  
-→ `#JavaScript` `#ResponsiveDesign`
+→ `#Python` `#Pygame` `#GameDev` `#TerminalGame`
 
 ---
 
@@ -56,12 +56,12 @@ Real-time weather reporting using OpenWeatherMap API.
 ---
 
 ## 🔐 Password Strength Checker
-A practical web tool that checks how strong your password really is.  
-**Features:**
-- Real-time feedback  
-- Custom rules (length, numbers, symbols)  
-- Strength meter bar  
-→ `#HTML` `#CSS` `#JavaScript`
+A backend-powered tool that analyzes password strength using custom logic and rules.
+Features:
+Checks length, symbols, uppercase, lowercase, and numbers
+Scores passwords with feedback
+Built for CLI and can be adapted for web integration
+→ `#Python` `#SecurityTools` `#CLI`
 
 ---
 
